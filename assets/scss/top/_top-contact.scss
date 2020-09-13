@@ -1,0 +1,121 @@
+.topContact {
+  margin-top: 92px;
+
+  @include mq(sm) {
+    background-color: #eef4f8;
+    margin-top: 70px;
+    padding: 0 15px;
+  }
+
+  &__content {
+    background-color: #eef4f8;
+    padding-top: 97px;
+    padding-left: 115px;
+    padding-right: 115px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: -45px;
+    position: relative;
+    z-index: 2;
+
+    @include mq(md) {
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+
+    @include mq(sm) {
+      display: block;
+      padding-right: 0;
+      padding-left: 0;
+      margin-bottom: 0;
+      padding-top: 63px;
+    }
+  }
+
+  &__info {
+    width: 55%;
+
+    @include mq(md) {
+      width: 50%;
+    }
+
+    @include mq(sm) {
+      width: 100%;
+    }
+  }
+
+  &__title {
+    font-size: 38px;
+    line-height: 1.3333;
+
+    @include mq(sm) {
+      font-size: 24px;
+    }
+  }
+
+  &__text {
+    margin-top: 40px;
+    line-height: 1.857;
+    font-size: 14px;
+  }
+
+  &__form {
+    width: 45%;
+
+    @include mq(md) {
+      width: 50%;
+    }
+
+    @include mq(sm) {
+      width: 100%;
+      margin-top: 46px;
+    }
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    background-color: #fff;
+    display: block;
+    width: 100%;
+    border: 1px solid #cdd6dd;
+    padding: 10px 20px;
+
+    @include mq(md) {
+      padding: 10px 10px;
+    }
+  }
+
+  input[type="email"] {
+    margin-top: 16px;
+  }
+
+  textarea {
+    display: block;
+    background-color: #fff;
+    resize: vertical;
+    width: 100%;
+    border: 1px solid #cdd6dd;
+    margin-top: 16px;
+    padding: 10px 20px;
+    min-height: 150px;
+
+    @include mq(md) {
+      padding: 10px 10px;
+    }
+  }
+
+  &__submit {
+    background-color: $color-blue;
+    color: #fff;
+    text-align: center;
+    border-radius: 24px;
+    padding: 10px 120px;
+    margin-top: 27px;
+
+    @include mq(sm) {
+      width: 100%;
+      margin-top: 17px;
+    }
+  }
+}

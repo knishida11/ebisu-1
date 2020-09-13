@@ -1,0 +1,22 @@
+- var path = "./";
+header.header#js-header
+  .wrap
+    .header__content
+      a(href="#").header__info
+        .header__logo
+          img(src=`${path}img/bb.svg`, alt="").header__logoImg
+        .header__nameBox
+          p.header__companyName BBアシスタントカンパニー
+          p.header__lead 確かなスタッフによる業務サポート
+      .header__nav
+        .header__burgerIconOuter
+          .header__burgerIcon
+            span
+            span
+            span
+        nav.header__navLinks
+          .header__navLinksInner
+            a(href="#").header__navLink 会社情報
+            a(href="#").header__navLink サービス
+            a(href="#").header__navLink.header__navLink--contact お問い合わせ
+
