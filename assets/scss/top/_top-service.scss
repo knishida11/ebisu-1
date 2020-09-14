@@ -50,6 +50,10 @@
 
       & + & {
         margin-top: 70px;
+
+        @include mq(sm) {
+          margin-top: 50px;
+        }
       }
     }
   }
@@ -57,7 +61,7 @@
   &__img {
     height: 360px;
     object-fit: cover;
-    font-family: 'object-fit: cover;';
+    font-family: "object-fit: cover;";
 
     @include mq(md) {
       height: 245px;
@@ -74,6 +78,10 @@
       margin-top: 25px;
       line-height: 1.6;
     }
+
+    @include mq(sm) {
+      margin-top: 10px;
+    }
   }
 
   &__description {
@@ -87,6 +95,7 @@
 
     @include mq(sm) {
       text-align: left;
+      margin-top: 5px;
     }
   }
 
@@ -101,6 +110,10 @@
     line-height: 1.875;
     font-weight: bold;
     transition: all 0.4s;
+
+    @include mq(sm) {
+      margin-top: 10px;
+    }
 
     &:hover {
       color: #fff;
