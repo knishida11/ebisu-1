@@ -49,10 +49,6 @@
   &__lead {
     font-size: 16px;
     font-weight: normal;
-
-    @include mq(sm) {
-      font-size: 14px;
-    }
   }
 
   &__title {

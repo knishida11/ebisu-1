@@ -1,7 +1,6 @@
 .footer {
   background-color: $color-blue;
-  padding-top: 102px;
-  padding-bottom: 105px;
+  padding: 100px 0;
 
   @include mq(sm) {
     padding-top: 40px;
@@ -44,13 +43,12 @@
     margin-left: 19px;
 
     @include mq(md) {
-      font-size: 16px;
       margin-left: 15px;
     }
   }
 
   &__address {
-    font-size: 12px;
+    font-size: 16px;
     line-height: 2;
     padding-left: 77px;
     margin-top: 20px;
