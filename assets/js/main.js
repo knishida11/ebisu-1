@@ -1,5 +1,4 @@
 $(function () {
-
   // object-fit-images
   objectFitImages();
 
@@ -14,9 +13,9 @@ $(function () {
     },
     breakpoints: {
       768: {
-        height: 400
-      }
-    }
+        height: 400,
+      },
+    },
   });
 
   // wow.js
@@ -34,12 +33,12 @@ $(function () {
 
   // burger menu for mobile
   $(".header__burgerIconOuter").on("click", function () {
-    if ($('.header__burgerIcon').hasClass("header__burger--open")) {
-      $('.header__burgerIcon').removeClass("header__burger--open");
+    if ($(".header__burgerIcon").hasClass("header__burger--open")) {
+      $(".header__burgerIcon").removeClass("header__burger--open");
       $(".header__navLinks").removeClass("open");
       $("body").removeClass("header--lock");
     } else {
-      $('.header__burgerIcon').addClass("header__burger--open");
+      $(".header__burgerIcon").addClass("header__burger--open");
       $(".header__navLinks").addClass("open");
       $("body").addClass("header--lock");
     }
