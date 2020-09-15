@@ -1,11 +1,6 @@
 .header {
-  padding-top: 20px;
-  padding-bottom: 20px;
-
-  @include mq(sm) {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
+  padding-top: 10px;
+  padding-bottom: 10px;
 
   &--lock {
     @include mq(sm) {
@@ -26,14 +21,12 @@
   }
 
   &__logoImg {
-    @include mq(sm) {
-      width: 40px;
-      height: 40px;
-    }
+    width: 40px;
+    height: 40px;
   }
 
   &__nameBox {
-    margin-left: 18px;
+    margin-left: 10px;
     line-height: 1;
 
     @include mq(sm) {
