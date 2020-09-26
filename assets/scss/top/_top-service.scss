@@ -69,8 +69,7 @@
   }
 
   &__serviceName {
-    font-size: 24px;
-    line-height: 1.4;
+    font-size: 20px;
     margin-top: 15px;
 
     @include mq(md) {
@@ -81,8 +80,7 @@
 
   &__description {
     font-size: 16px;
-    line-height: 2;
-    margin-top: 15px;
+    margin-top: 10px;
     text-align: center;
     display: inline-block;
 
