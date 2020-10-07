@@ -15,6 +15,8 @@ a {
 img {
   max-width: 100%;
   vertical-align: bottom;
+  height: auto;
+  border-style: none;
 }
 
 ul {
@@ -27,11 +29,6 @@ ul {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-
-  @include mq(sm) {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
 }
 
 .wow {
