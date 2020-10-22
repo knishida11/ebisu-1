@@ -40,4 +40,10 @@ $(function () {
       $("body").addClass("header--lock");
     }
   });
+
+  $(".header__navLink").on("click", function () {
+    $(".header__burgerIcon").removeClass("header__burger--open");
+    $(".header__navLinks").removeClass("open");
+    $("body").removeClass("header--lock");
+  });
 });
